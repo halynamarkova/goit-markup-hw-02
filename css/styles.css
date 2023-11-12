@@ -55,6 +55,10 @@ address{
  .address-list{
     color: #434455};
  
+.address-item{
+color: #434455;
+    }
+    
 .address-item:hover,
 .address-item:focus {
     color: #404BBF;
