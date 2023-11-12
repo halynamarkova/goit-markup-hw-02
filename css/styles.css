@@ -47,11 +47,11 @@ address{
 }
 
 .address-menu{
-   font-size: 16px;
+color: #434455;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-}
+    }
   /* exclude 
  .address-list{
     color: #434455};
