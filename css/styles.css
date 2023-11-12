@@ -13,12 +13,13 @@ button{
 body{
     font-family: Roboto, sans-serif;
     font-style: normal;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFF;
     font-weight: 400;
 }
 .logo{
 font-family: Raleway, sans-serif;
+color: #4D5AE5;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
@@ -27,7 +28,7 @@ text-transform: uppercase;
 }
 
 .logo-part{
-color: #4D5AE5;
+color: #2e2f42;
 }
 
 .menu-navigation{
@@ -41,12 +42,15 @@ letter-spacing: 0.32px;
 .menu-item:focus{
 color: #404bbf;
 }
+address{
+    font-style: normal;
+}
 
 .address-menu{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .address-item:hover,
 .address-item:focus {
@@ -69,13 +73,18 @@ text-align: center;
     letter-spacing: 1.12px;
     }
 
-button{
+.main-button{
     color:#FFF;
     background-color: #4D5AE5;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.64px;
+}
+
+.main-button:hover,
+.main-button:focus{
+    background-color: #404BBF;
 }
 
 .section-title{
@@ -91,14 +100,19 @@ button{
 
 
 .points-description{
-        color: #434455;
+    color: #434455;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
 
 .team{
 text-align: center;
+background-color: #F4F4FD
+}
+
+.team-item{
+    background-color: #FFFFFF;
 }
 
 .team-title{
@@ -106,6 +120,7 @@ font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.72px;
+    text-transform: capitalize;
    }
 
 .team-name{
@@ -116,22 +131,26 @@ font-size: 36px;
 }
 
 .team-position{
+    color: #434455;
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
-footer{
+.footer{
     background-color: #2E2F42;
 }
 
 .logo-down{
-color: #F4F4FD;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
+    color: #4D5AE5;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+}
+.logo-part-down{
+    color: #f4f4fd;
 }
 .slogan{
 color:#F4F4FD;
